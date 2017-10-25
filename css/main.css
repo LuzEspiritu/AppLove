@@ -12,9 +12,10 @@
 }
 
 body {
-  margin: 0 auto;
+  margin: 10px auto;
   font-size: 16px;
   line-height: 1.71429;
+  font-family: 'Raleway', sans-serif;
 }
 
 img {
@@ -22,11 +23,11 @@ img {
 }
 
 .container {
-  width: 1200px;
+  width: 887px;
   margin-right: auto;
   margin-left: auto;
-  padding-left: 14px;
-  padding-right: 14px;
+  /*padding-left: 14px;
+  padding-right: 14px;*/
 }
 
 .container:before, .container:after {
@@ -70,4 +71,80 @@ a:hover {
 }
 
 /*ESCRIBE TU CÓDIGO DESDE AQUÍ*/
+/*Agredando selectotes de etiqueta*/
+section{
+  /*outline: 1px solid green;*/
+  top:0;
+  text-align: center;
+  }
 
+div a {
+  /*outline: 1px solid red;*/
+  margin: 15px;
+  position: relative;
+  left:230px;
+}
+
+/*Agregando estilos a los selectores de clase*/
+.bg-home{
+   height: 354px;
+
+}
+.container-home{
+  height: 354px;
+}
+/*contenedor 2: servicios*/
+.container-services{
+  position: relative;
+  background:#F17C72;
+  top:0px;
+  height: 435px;
+  /*margin: auto;*/
+  color: white;
+  font-size:12px;
+}
+.container-work{
+  position: relative;
+  height: 1545px;
+  top: 0;
+  color: black;
+  font-size: 12px;
+}
+/*alineamos los elementos div con la declaración: "display:inline-block"*/
+ .services{
+  display: inline-block;
+  position: relative;
+  width: 33%;
+  top:80px;
+}
+.Elementos_de_work{
+  display: inline-block;
+  position: relative;
+  width: 33%;
+  top:40px;
+}
+
+/*definimos el ancho,largo y margen a las imágenes de los servicios*/
+.imagen-servicios{
+  width: 130px;
+  height: 130px;
+
+}
+.imagen_work{
+  width: 200px;
+  height: 200px;
+}
+.imagen_hero{
+  height: 600px;
+}
+
+/*establecer margenes entre elementos*/
+.anuncio-portada{
+ position: relative;
+ top:40px;
+
+}
+h5,h6{
+  margin: 0;
+  top: 0;
+}
