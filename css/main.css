@@ -23,7 +23,7 @@ img {
 }
 
 .container {
-  width: 887px;
+  width: 1200px;
   margin-right: auto;
   margin-left: auto;
   /*padding-left: 14px;
@@ -74,8 +74,11 @@ a:hover {
 /*Agredando selectotes de etiqueta*/
 section{
   /*outline: 1px solid green;*/
-  top:0;
+  top:20px;
   text-align: center;
+  }
+  header{
+    margin:20px;
   }
 
 div a {
@@ -84,14 +87,21 @@ div a {
   position: relative;
   left:230px;
 }
+h5,h6{
+  margin: 0;
+  top: 0;
+}
+
 
 /*Agregando estilos a los selectores de clase*/
 .bg-home{
-   height: 354px;
+  width: 1200;
+  height: 350px;
 
 }
 .container-home{
-  height: 354px;
+  height: 350px;
+  top:0px;
 }
 /*contenedor 2: servicios*/
 .container-services{
@@ -143,8 +153,4 @@ div a {
  position: relative;
  top:40px;
 
-}
-h5,h6{
-  margin: 0;
-  top: 0;
 }
